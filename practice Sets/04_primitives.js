@@ -1,3 +1,5 @@
+// PRIMITIVES DT
+
 // null 
 // Number
 // str
@@ -20,3 +22,19 @@ console.log(a,b,c,d,e,f,g,h)
 
 console.log(typeof e)
 // we can use typeof to check the type of variable
+
+// OBJECTS
+// (non primotive datatypes)
+
+const obj = {
+  "object1" : "Milan",
+  "object2" : 23,
+  "object3" : true,
+  "object4" : undefined,
+  "object5" : Symbol("Student"),
+}
+
+console.log((obj["object1"]),"is" ,(obj["object2"]), "years old.")
+// objects are used to create key value pairs
+// can create mapping 
+// objects are used to create dictionaries
