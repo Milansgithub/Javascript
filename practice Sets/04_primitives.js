@@ -14,8 +14,9 @@ let c = true;
 let d = BigInt("3444")
 let e = 3434
 let f = Symbol("i am a symbol")
-let g = undefined
-console.log(a,b,c,d,e,f)
+let g 
+let h = undefined
+console.log(a,b,c,d,e,f,g,h)
 
 console.log(typeof e)
 // we can use typeof to check the type of variable
