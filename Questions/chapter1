@@ -1,0 +1,43 @@
+//Q1 varible string and add a number
+
+let a = "Milan"
+let b = 12
+console.log(a + b)
+
+// Q2 use typeof operator 
+
+console.log(typeof a,",", typeof b, "," , typeof (a+b))
+
+// Q3 make change in objects value
+
+const list = {
+
+  "name" : "Milan",
+  "age" : 23,
+  "occ" : Symbol("Student"),
+  "occ" : 23 // overwrited on symbol occ
+}
+
+// list = 34 // not changeable because already assigned
+
+// Q4 try to add content or change content in objects
+
+
+list["friend"] = "robin" // this will  help in adding content in objects (list is object)
+
+list["name"] = "robin" // this will update name or helps in changing content objects
+
+//Q5  word meaning dictionary
+
+const dict   = {
+  age : "umar",
+  pillow : "takiya",
+  bottle : "pepsi"
+
+}
+
+
+console.log(list["occ"])
+console.log(list["friend"])
+console.log(list)
+console.log(dict.bottle)
